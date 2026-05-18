@@ -1,0 +1,254 @@
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wannabeez{
+    font-size: 60px;
+    letter-spacing: 2px;
+     display: flex;
+    justify-content: space-between;
+    font-family: var(--tipografiatitulos);
+    color: #000000;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+  }
+
+   .wannabeez:hover{
+     transition: all 0.6s ease-in-out;
+     color: #ffffff;
+  }
+
+.nav{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar{
+    color: #ffffff;
+  text-decoration: none;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.bar:hover{
+    color: #bebebe;
+    font-size: 20px ;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.aguanta{
+       color: #5a5a5a;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+}
+
+.niaguantas{
+  background-color: #000000;
+}
+
+.nada{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: var(--tipografiatitulos);
+    padding: 20px 20px ;
+    background-color: #000000;
+     text-align: center;
+    font-size: 54px ;
+    letter-spacing: 2px;
+}
+
+
+.estilo-section{
+background-color: #000000;
+ width: 100%;
+}
+
+.imagen-estilo{
+    width: 100%;
+    max-width: 380px;
+    height: 520px;
+
+
+}
+
+.cinta{
+  background-color: #ffffff;
+}
+
+.textocinta{
+  color: #000000;
+  font-family: var(--tipografiatexto);
+  font-size: 50px ;
+text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.corriente-section{
+   background-color: #000000;
+}
+
+.contenido-corriente{
+   background-color: #000000;
+  margin-top: 18px ;
+}
+
+.texto-corriente{
+    margin-left: 10px ;
+     margin-right: 30px;
+     font-family: var(--tipografiatexto);
+text-align: justify;
+    font-size: 36px;
+    line-height: 38px ;
+    color: #ffffff;
+    
+}
+
+.imagen-corriente{
+  width: 100%;
+}
+
+.anecdota{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anecdotas{
+  color: #000000;
+  font-family: var(--tipografiatitulos);
+  letter-spacing: 2px ;
+  font-size: 76px;
+  text-align: center;
+}
+.anecdotass{
+  background-color: #000000;
+}
+
+.anecdotaa{
+color: #ffffff;
+background-color: #000000;
+margin-top: 10px ;
+text-align: center;
+font-family: var(--tipografiatexto);
+font-weight: 500;
+font-size: 60px ;
+line-height: 70px ;
+}
+
+
+.imagenes{
+  width: 100%;
+  margin-top: 10px ;
+}
+
+.frasefinal{
+  background-color: #ffffff;
+  margin-top: 10px ;
+}
+
+.texto-final{
+  color: #000000;
+  margin-top: 10px ;
+  font-family: var(--tipografiatexto);
+  font-size: 46px ;
+  text-align: justify;
+  line-height: 50px ;
+  padding-left: 18px ;
+  padding-right: 18px ;
+font-weight: 600;
+}
+
+
+.descarga{
+  position: absolute;
+  position: relative;
+  background-color: #8f8f8f;
+  padding: 20px ;
+  
+}
+
+.descargarevista{
+  color: #ffffff;
+font-size: 52px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.pdf{
+  text-decoration: none;
+  color: #242424;
+  font-size: 30px ;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px ;
+  transition: all 0.4s ease-in-out;
+  font-weight: 500;
+}
+
+.pdf:hover{
+    color: #000000;
+    font-size: 32px ;
+    transition: all 0.4s ease-in-out;
+}
+
+.siguenos{
+ color: #ffffff;
+  text-align: center;
+    color: #ffffff;
+font-size: 30px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.iconos{
+  height: 50px;
+  display: flex;
+}
+
+.ia{
+  background-color: #000000;
+  padding-top: 10px ;
+}
+
+.inteligenciaartificial{
+  color: #ffffff;
+  font-family: var(--tipografiatexto);
+  font-size: 16px ;
+  text-align: center;
+}
+
+
+:root{
+    --tipografiatitulos: impact;
+    --tipografiatexto: "Inter", sans-serif;
+}

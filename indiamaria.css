@@ -1,0 +1,250 @@
+ body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wannabeez{
+    font-size: 60px;
+    letter-spacing: 2px;
+     display: flex;
+    justify-content: space-between;
+    font-family: var(--tipografiatitulos);
+    color: #000000;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+  }
+
+   .wannabeez:hover{
+     transition: all 0.6s ease-in-out;
+     color: #ffffff;
+  }
+
+
+
+.nav{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar{
+    color: #ffffff;
+  text-decoration: none;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+
+}
+
+.bar:hover{
+    color: #bebebe;
+    font-size: 20px ;
+    transition: all 0.4s ease-in-out;
+}
+
+.indiam{
+     color: #5a5a5a;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+}
+
+.vestir-section{
+ width: 100%;
+}
+
+.imagen-vestir{
+  width: 100%;
+}
+.chavaspared{
+  background-color: #000000;
+}
+
+.frase-central{
+    font-family: var(--tipografiatitulos);
+    padding: 20px 20px ;
+color: #ffffff;
+    background-color: #000000;
+
+}
+
+.titulo-frase{
+     text-align: center;
+    font-size: 54px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.corriente-section{
+    color: white;
+   background-color: #000000;
+}
+
+
+
+.contenido-corriente{
+   background-color: #000000;
+  text-align: center;
+  
+}
+
+
+
+.titulo-corriente{
+    font-size: 60px ;
+    text-transform: uppercase;
+     font-family: var(--tipografiatitulos);
+    margin-top: 60px  ;
+     margin-left: 12px ;
+     margin-right: 12px;
+     line-height: 69px;
+     text-align: center;
+}
+
+
+
+.texto-corriente{
+    margin-top: 20px;
+    margin-left: 16px ;
+     margin-right: 12px;
+     font-family: var(--tipografiatexto);
+text-align: justify;
+    font-size: 30px;
+ line-height: 34px ;
+ 
+    
+}
+
+.imagen-corriente{
+  width: 200%;
+}
+
+
+
+.corriente-section2{
+    color: white;
+   background-color: #000000;
+}
+
+
+
+.contenido-corriente2{
+   background-color: #000000;
+  text-align: center;
+  
+}
+
+
+
+.titulo-corriente2{
+    font-size: 50px ;
+    text-transform: uppercase;
+     font-family: var(--tipografiatitulos);
+    margin-top: 26px  ;
+       margin-left: 10px ;
+     margin-right: 30px;
+      line-height: 62px;
+      text-align: center;
+}
+
+
+
+.texto-corriente2{
+    margin-top: 20px;
+    margin-left: 10px ;
+     margin-right: 30px;
+     font-family: var(--tipografiatexto);
+text-align: justify;
+    font-size: 28px;
+    line-height: 34px ;
+    
+}
+
+.imagen-corriente2{
+width: 100%;
+}
+
+
+.descarga{
+  position: absolute;
+  position: relative;
+  background-color: #8f8f8f;
+  padding: 20px ;
+  
+}
+
+.descargarevista{
+  color: #ffffff;
+font-size: 52px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.pdf{
+  text-decoration: none;
+  color: #242424;
+  font-size: 30px ;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px ;
+  transition: all 0.4s ease-in-out;
+  font-weight: 500;
+}
+
+.pdf:hover{
+    color: #000000;
+    font-size: 32px ;
+    transition: all 0.4s ease-in-out;
+}
+
+.siguenos{
+ color: #ffffff;
+  text-align: center;
+    color: #ffffff;
+font-size: 30px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.iconos{
+  height: 50px;
+  display: flex;
+}
+
+.ia{
+  background-color: #000000;
+  padding-top: 10px ;
+}
+
+.inteligenciaartificial{
+  color: #ffffff;
+  font-family: var(--tipografiatexto);
+  font-size: 16px ;
+  text-align: center;
+}
+
+:root{
+    --tipografiatitulos: impact;
+    --tipografiatexto: "Inter", sans-serif;
+}

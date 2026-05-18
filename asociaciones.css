@@ -1,0 +1,151 @@
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wannabeez{
+    font-size: 60px;
+    letter-spacing: 2px;
+     display: flex;
+    justify-content: space-between;
+    font-family: var(--tipografiatitulos);
+    color: #000000;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+  }
+
+   .wannabeez:hover{
+     transition: all 0.6s ease-in-out;
+     color: #ffffff;
+  }
+.nav{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bar{
+    color: #ffffff;
+  text-decoration: none;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.bar:hover{
+    color: #bebebe;
+    font-size: 20px ;
+    transition: all 0.4s ease-in-out;
+}
+
+.asociacion{
+       color: #5a5a5a;
+  font-size: 18px ;
+  text-align: center;
+  text-transform: uppercase; 
+  font-family: var(--tipografiatexto);
+  font-weight: 700;
+  line-height: 100%;
+  display: flex;
+    justify-content: center;
+    padding: 18px 0 ;
+}
+
+
+.asociacionn{
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+margin-bottom: 10px ;
+}
+
+.asocia{
+  color: #000000;
+  font-family: var(--tipografiatitulos);
+  font-size: 80px ;
+  text-align: center;
+  letter-spacing: 2px ;
+}
+
+
+
+.descarga{
+  position: absolute;
+  position: relative;
+  background-color: #8f8f8f;
+  padding: 20px ;
+  
+}
+
+.descargarevista{
+  color: #ffffff;
+font-size: 52px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.pdf{
+  text-decoration: none;
+  color: #242424;
+  font-size: 30px ;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px ;
+  transition: all 0.4s ease-in-out;
+  font-weight: 500;
+}
+
+.pdf:hover{
+    color: #000000;
+    font-size: 32px ;
+    transition: all 0.4s ease-in-out;
+}
+
+.siguenos{
+ color: #ffffff;
+  text-align: center;
+    color: #ffffff;
+font-size: 30px ;
+font-family: var(--tipografiatitulos);
+text-transform: uppercase;
+display: flex;
+justify-content: left;
+ letter-spacing: 1px ;
+
+}
+
+.iconos{
+  height: 50px;
+  display: flex;
+}
+
+.ia{
+  background-color: #000000;
+  padding-top: 10px ;
+}
+
+.inteligenciaartificial{
+  color: #ffffff;
+  font-family: var(--tipografiatexto);
+  font-size: 16px ;
+  text-align: center;
+}
+
+
+:root{
+    --tipografiatitulos: impact;
+    --tipografiatexto: "Inter", sans-serif;
+}
