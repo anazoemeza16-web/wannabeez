@@ -1,5 +1,4 @@
-
-  body {
+ body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -112,20 +111,37 @@ background-color: #000000;
   width: 100%;
 }
 
-.sobren{
+
+.equipo{
   background-color: #ffffff;
 }
 
-.nosotros{
+.equipowannabeez{
+ text-align: center;
+}
+
+
+.info{
+  padding-left: 18px ;
+  padding-right: 18px ;
+  padding-bottom: 10px ;
+  padding-top: 10px ;
+}
+
+
+.contribucion{
   color: #000000;
-  font-family: var(--tipografiatexto);
-  font-weight: 700;
-  font-size: 48px ;
-  line-height: 54px ;
+ font-family: var(--tipografiatexto);
+  font-size: 70px;
   text-align: justify;
-   margin-top: 10px;
-    margin-left: 38px ;
-     margin-right: 38px;
+  font-weight: 500;
+}
+
+.wanna{
+  font-size: 60px;
+    letter-spacing: 2px;
+    font-family: var(--tipografiatitulos);
+    color: #000000;
 }
 
 
@@ -153,7 +169,7 @@ justify-content: left;
   text-decoration: none;
   color: #242424;
   font-size: 30px ;
-  font-family: "Inter", sans-serif;
+  font-family: var(--tipografiatexto);
   letter-spacing: 2px ;
   transition: all 0.4s ease-in-out;
   font-weight: 500;
