@@ -1,9 +1,8 @@
 
-  body {
+ body {
     width: 100%;
     overflow-x: hidden;
 }
-
 .wannabeez{
     font-size: 60px;
     letter-spacing: 2px;
@@ -62,21 +61,10 @@
 }
 
 
-.asociacionn{
-  background-color: #ffffff;
-  width: 100%;
-  text-align: center;
-margin-bottom: 10px ;
+.video{
+width: 48%;
+padding: 10px ;
 }
-
-.asocia{
-  color: #000000;
-  font-family: var(--tipografiatitulos);
-  font-size: 80px ;
-  text-align: center;
-  letter-spacing: 2px ;
-}
-
 
 
 .descarga{
@@ -102,7 +90,7 @@ justify-content: left;
   text-decoration: none;
   color: #242424;
   font-size: 30px ;
-  font-family: "Inter", sans-serif;
+  font-family: var(--tipografiatexto);
   letter-spacing: 2px ;
   transition: all 0.4s ease-in-out;
   font-weight: 500;
